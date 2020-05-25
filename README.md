@@ -8,7 +8,7 @@ The objective will then be to use his work to optimize the numerous push notific
 
 
 
-# bandits-manchot-multi-armed-bandit-
+# Les bandits manchot, multi-armed-bandit
 
 L’implémentation de modèles de Deep Learning pour encoder les pro ls utilisateurs(les mots clés des méthodes utilisées : Embedding, HashingTrick, Multi-task learning, Auto-encoder).
 L’utilisation des encodages des utilisateurs à divers problèmes marketings, notamment l’optimisation de campagnes de noti cations. Pour cela, l’encodage précédemment appris sera utilisé en entrée d’un algorithme de bandits contextuels (c’est comme le renforcement, mais d’avantage axé sur la convergence rapide au détriment de relations complexes entre les variables, c’est pour ça qu’on fait un encodage avec du deep avant). Dans le cas des campagnes de noti cations, le but sera d’envoyer des noti cations au parc d’utilisateurs, en maximisant un retour positif. Pour cela, on enverra les noti cations par vagues, en optimisant petit à petit la pertinence de la noti cation en fonction du pro l utilisateur grâce à l’algorithme
